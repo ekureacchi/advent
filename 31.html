@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+ <link rel="shortcut icon" href="1.gif">
+ <style>
+ .overlay {
+   position:fixed;
+   top:0;
+   right:0;
+   bottom:0;
+   left:0;
+   z-index:9999;
+   background-color: #e8faf6;
+   font-size: 20px;
+   color:black;
+   padding:20% 0;
+   text-align:center;
+ </style>
+ <div id="protect-overlay" class="overlay">
+     <form action="#">
+         <input name="answer" type="password" placeholder="Введи пароль"/> <button type="submit">Открыть страницу</button>
+     </form>
+     <br>
+как-то раз я удивилась, что ты помнишь модель одного из своих прошлых телефонов. <br>
+так вот, теперь я тоже её помню. от тебя требуется только указать модель своего старого сони эриксон.
+ </div>
+
+ <script>
+
+     var o = document.getElementById('protect-overlay');
+     o.getElementsByTagName('form')[0].onsubmit = function() {
+         if (this.answer.value === 'w810i') {
+             o.style.display = "none";
+         } else {
+             alert('мяф');
+         }
+         return false;
+     };
+
+ </script>
+</head>
+ <title>31 декабря</title>
+<body><div class='aa'>
+начало сентября. я шуточно говорю о том, что на новый год загадаю встречу с тобой. теперь не шуточно. <br>помнишь, я рассказывала
+про загадывание желаний под бой курантов? как ты думаешь, я успею записать своё желание, сжечь его и выпить вино вместе с пеплом, пока куранты не
+пробили 12 раз? уверена, что ты скажешь "конечно успеешь", ведь ты во всём меня поддерживаешь - я безмерно это ценю и чуть ли не со слезами (всё ещё негрустными!)
+смотрю на это. обожаю тебя за это. и не только за это, разумеется!! <br>
+когда-нибудь, мне хочется мечтать, мы проведём новый год вместе. вместе украсим ёлку, развесим гирлянды по дому - я обожаю светяшки! будем смотреть что-нибудь и пить. учитывая, что я тебе доверяю, я смогу выпить в твоей компании. тем более, что со мной это выгодно, ведь мне нужно совсем чуть-чуть, чтобы опьянеть. хотя я уже давно пьяна тобой, хаха<br>
+а вообще, новогоднее чудо - это ты
+  <img src="31.png" class="rightpic"><br><br>
+  <a href="index.html">Назад</a></div>
+ </body>
+</html>

@@ -1,0 +1,60 @@
+body {
+
+background-color: #e8faf6;
+}
+
+.outer img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .aa {
+  width: 545px;
+  margin:0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 2px dashed #2d508f;
+  opacity: 0.85;
+  font-size: 20px;
+    text-align:justify;
+  }
+
+  .bb {
+  width: 1050px;
+  margin:0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 2px dashed #2d508f;
+  opacity: 0.85;
+  font-size: 20px;
+  text-align:justify;
+  }
+
+  .cc {
+  width: 850px;
+  margin:0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 2px dashed #2d508f;
+  opacity: 0.85;
+  font-size: 20px;
+  text-align:justify;
+  }
+
+  .rightpic {
+ float: right; /* Выравнивание по правому краю */
+ margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+}

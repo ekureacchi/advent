@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+ <link rel="shortcut icon" href="1.gif">
+ <style>
+ .overlay {
+   position:fixed;
+   top:0;
+   right:0;
+   bottom:0;
+   left:0;
+   z-index:9999;
+   background-color: #e8faf6;
+   font-size: 20px;
+   color:black;
+   padding:20% 0;
+   text-align:center;
+ </style>
+ <div id="protect-overlay" class="overlay">
+     <form action="#">
+         <input name="answer" type="password" placeholder="Введи пароль"/> <button type="submit">Открыть страницу</button>
+     </form>
+       <br>познакомлю тебя с одной из моих любимых песен. сегодняшний пароль: кем или чем герой просит стать для него девушку, к которой обращается в "Беги" Lumen?<br>
+       <audio controls style="width:100%;max-width:600px;">
+             <source src="begi.mp3" type="audio/mp3">
+         </audio>
+ </div>
+
+ <script>
+
+     var o = document.getElementById('protect-overlay');
+     o.getElementsByTagName('form')[0].onsubmit = function() {
+         if (this.answer.value === 'ветром') {
+             o.style.display = "none";
+         } else {
+             alert('с маленькой буквы как всегда. падеж не меняй');
+         }
+         return false;
+     };
+
+ </script>
+</head>
+ <title>30 декабря</title>
+<body><div class='aa'>
+знаешь, что? мне очень жаль людей, у которых нет тебя.  <br>
+кстати, ты уже знаешь, что будешь загадывать завтра? только не говори мне, что ты не поддерживаешь новогоднюю традицию загадывать желания! <br>
+чуточку грустно, что я не могу провести новый год рядом с тобой. даже не могу отправить посылку! я бы обязательно положила туда и тот вкусный башкирский чай, и ещё какой-нибудь смешнульковый новогодний свитер, и может быть даже плойку для волос? о, и ещё милые заколочки. и...
+<br>а на день рождения я бы устроила небольшой квестик по дому. приготовила бы всё заранее, пока ты спишь - наверняка я просыпалась бы раньше на несколько часов, а ты на несколько часов ложился бы позже. так что я точно бы успела всё подготовить, а третьего числа разместила бы записочки то тут, то там, чтобы по ним ты искал какой-нибудь подарок!
+  <img src="30.png" class="rightpic"><br><br>
+  <a href="index.html">Назад</a></div>
+ </body>
+</html>

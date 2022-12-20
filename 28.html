@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+ <link rel="shortcut icon" href="1.gif">
+ <style>
+ .overlay {
+   position:fixed;
+   top:0;
+   right:0;
+   bottom:0;
+   left:0;
+   z-index:9999;
+   background-color: #e8faf6;
+   font-size: 20px;
+   color:black;
+   padding:20% 0;
+   text-align:center;
+ </style>
+ <div id="protect-overlay" class="overlay">
+     <form action="#">
+         <input name="answer" type="password" placeholder="Введи пароль"/> <button type="submit">Открыть страницу</button>
+     </form>
+     <br>
+  ладно, сегодня напишу на понятном тебе языке<br>просто впиши имя персонажа, ради которого я донатила в геншин
+ </div>
+
+ <script>
+
+     var o = document.getElementById('protect-overlay');
+     o.getElementsByTagName('form')[0].onsubmit = function() {
+         if (this.answer.value === 'итто') {
+             o.style.display = "none";
+         } else {
+             alert('с маленькой буквы, конечно');
+         }
+         return false;
+     };
+
+ </script>
+</head>
+ <title>28 декабря</title>
+<body><div class='aa'>
+сегондя меня посетила мысль: если бы мне пришлось отказаться от кофе или от тебя, я бы отказалась от кофе.
+даже если бы из Львова. даже если бы от рафа.<br>
+я знаю, что наше общение не будет длиться вечность, и что когда-нибудь ты отдалишься - или, что менее вероятно, отдалюсь я. и всё же,
+пока это не случилось, хочу наслаждаться возможностью говорить с тобой каждый день. хочу наслаждаться возможностью думать о тебе каждый день.
+хочу наслаждаться возможностью мечтать о том, как мы когда-нибудь встретимся.<br>и вообще, если мысли материальны, буду думать о тебе
+  <img src="28.png" class="rightpic"><br><br>
+  <a href="index.html">Назад</a></div>
+ </body>
+</html>
